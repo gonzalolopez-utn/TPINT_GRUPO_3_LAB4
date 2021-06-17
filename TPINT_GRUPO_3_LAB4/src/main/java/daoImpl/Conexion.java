@@ -15,7 +15,7 @@ public class Conexion {
 	        try
 	        {
 	            Class.forName("com.mysql.cj.jdbc.Driver"); // quitar si no es necesario
-	            this.connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bdBanco","admina","Spartacus.2019");
+	            this.connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bdBanco","root","root");
 	            this.connection.setAutoCommit(false);
 	        }
 	        catch(Exception e)
