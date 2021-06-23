@@ -32,17 +32,16 @@
 						Prestamo</button>
 					</td>
 				<td><button type="submit" class="btn btn-primary">Ver
-						Historial</button></td><!-- ver fran -->
+						Historial</button></td><!-- Listo -->
 				<td><button type="submit" class="btn btn-primary">Transferencias</button></td> 
 				<td><button type="submit" class="btn btn-primary">Ver
 						Informacion</button></td>
 				<td>
-				<button type="submit" class="btn btn-primary">Ver
-						Cuentas</button></td><!-- ver fran -->
-				<td><button type="submit" class="btn btn-primary">Solicitar
-						Cuenta</button></td><!-- ver fran -->
-				<td><button type="submit" class="btn btn-primary">Modificar
-						Datos</button></td><!-- ver historial -->
+				<button type="submit" class="btn btn-primary">Ver Cuentas</button></td><!-- ver fran -->
+				<td>
+				<button type="submit" class="btn btn-primary">Solicitar	Cuenta</button></td><!-- ver fran -->
+				<td>
+				<button type="submit" class="btn btn-primary">Modificar	Datos</button></td><!-- quitar -->
 
 			</tr>
 	</table>
