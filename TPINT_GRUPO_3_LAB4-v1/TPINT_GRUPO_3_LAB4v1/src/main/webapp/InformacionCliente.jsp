@@ -10,13 +10,13 @@
 
 <h1>Información de Usuario</h1>
 Usuario:
-<%=valorSelectUsuario %>
+<!-- %=valorSelectUsuario %-->
 <br>
 Nombre Completo:
-<%=valorSelectNombre %>
+<!-- %=valorSelectNombre %-->
 <br>
 N° de cliente:
-<%=valorSelectUserID%>
+<!-- %=valorSelectUserID%-->
 
 
 </body>

@@ -22,21 +22,27 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td><button type="submit" class="btn btn-primary">Pedido
-						Prestamo</button></td>
-				<td><button type="submit" class="btn btn-primary">Pago
-						Prestamo</button></td>
+				<td>
+					<button type="submit" class="btn btn-primary">Pedido
+						Prestamo
+					</button>
+				</td>
+				<td>
+					<button type="submit" class="btn btn-primary">Pago
+						Prestamo</button>
+					</td>
 				<td><button type="submit" class="btn btn-primary">Ver
-						Historial</button></td>
-				<td><button type="submit" class="btn btn-primary">Transferencias</button></td>
+						Historial</button></td><!-- ver historial -->
+				<td><button type="submit" class="btn btn-primary">Transferencias</button></td> 
 				<td><button type="submit" class="btn btn-primary">Ver
 						Informacion</button></td>
-				<td><button type="submit" class="btn btn-primary">Ver
-						Cuentas</button></td>
+				<td>
+				<button type="submit" class="btn btn-primary">Ver
+						Cuentas</button></td><!-- ver historial -->
 				<td><button type="submit" class="btn btn-primary">Solicitar
-						cuenta</button></td>
+						cuenta</button></td><!-- ver historial -->
 				<td><button type="submit" class="btn btn-primary">Modificar
-						Datos</button></td>
+						Datos</button></td><!-- ver historial -->
 
 			</tr>
 	</table>
