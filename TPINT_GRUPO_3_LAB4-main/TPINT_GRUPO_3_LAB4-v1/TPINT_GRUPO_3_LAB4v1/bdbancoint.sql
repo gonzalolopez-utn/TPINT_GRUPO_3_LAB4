@@ -1,5 +1,3 @@
-CREATE DATABASE  IF NOT EXISTS `bdbancoint` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `bdbancoint`;
 -- MySQL dump 10.13  Distrib 8.0.21, for Win64 (x86_64)
 --
 -- Host: localhost    Database: bdbancoint
@@ -61,7 +59,6 @@ CREATE TABLE `cuentas` (
   `idcuenta` int(11) NOT NULL,
   `saldo` float DEFAULT NULL,
   `fecha` date DEFAULT NULL,
-  `cuentascol` varchar(45) DEFAULT NULL,
   `cbu` varchar(45) DEFAULT NULL,
   `estado` tinyint(4) DEFAULT NULL,
   `tipocuenta` int(11) DEFAULT NULL,
@@ -229,10 +226,10 @@ DROP TABLE IF EXISTS `usuarios`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `usuarios` (
-  `dni` varchar(50) NOT NULL,
-  `usuario` varchar(50) NOT NULL,
-  `contraseña` varchar(50) DEFAULT NULL,
-  `estado` Integer DEFAULT NULL,
+  `dni` int(11) NOT NULL,
+  `usuario` varchar(45) NOT NULL,
+  `contraseña` varchar(45) DEFAULT NULL,
+  `estado` tinyint(4) DEFAULT NULL,
   `idtipousuario` int(11) DEFAULT NULL,
   PRIMARY KEY (`dni`,`usuario`),
   KEY `fk_usuarios_tipousuario1_idx` (`idtipousuario`),
@@ -267,4 +264,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-06-18  4:18:41
+-- Dump completed on 2021-06-24 14:14:32
